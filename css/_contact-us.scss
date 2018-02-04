@@ -1,0 +1,291 @@
+// Orange 
+$color-orange: #f2960f; 
+// Red
+$color-red: #c20707;
+// Blue
+$color-blue: #2196f3;
+// Green
+$color-green: #008205;
+/*==============================================================================================
+										Contact Us Style										
+==============================================================================================*/
+/* =============================================
+			Contact Us V One Style				
+============================================= */
+.tg-contactus{
+	width:100%;
+	float:left;
+}
+.tg-address{
+	width:100%;
+	float:left;
+	list-style:none;
+	text-align: center;
+}
+.tg-address li{
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	*display: inline;
+	width:33.33%;
+	padding:65px 55px;
+	list-style-type:none;
+}
+.tg-address li + li{border-left:1px solid #e8e8e8;}
+.tg-address li > i{
+	display:block;
+	font-size:40px;
+	margin:0 0 45px;
+	line-height:40px;
+}
+.tg-address li h2{
+	font-size:20px;
+	margin:0 0 15px;
+	line-height:20px;
+}
+.tg-address li span{
+	color:#929292;
+	display:block;
+	font-size:14px;
+	margin:0 0 5px;
+	line-height:17px;
+}
+.tg-address li span + span{margin:0 0 25px;}
+.tg-address li > a{
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	line-height:16px;
+}
+.tg-mapprojectarea{
+	width:100%;
+	float:left;
+}
+.tg-map{
+	width:100%;
+	float:left;
+	height:650px;
+}
+.tg-startyourwork{
+	width:100%;
+	float:left;
+	padding:60px;
+}
+.tg-startyourwork .tg-titlevone{padding:0;}
+.tg-startyourwork .tg-titlevone h3 span{
+	color:#1c1c1c;
+	margin:0 0 13px;
+}
+.tg-formstartproject{
+	width:auto;
+	float:none;
+	clear:both;
+	margin:0 -10px;
+	overflow:hidden;
+}
+.tg-formstartproject .form-group{
+	width:50%;
+	padding:0 10px;
+}
+.tg-formstartproject .form-group:nth-child(4){width:100%;}
+.tg-formstartproject .form-group:last-child{margin:0;}
+.tg-formstartproject .form-group input{border-radius:0;}
+.tg-formstartproject .form-group textarea{
+	width:100%;
+	float:left;
+	resize:none;
+	height:265px;
+	border-radius:0;
+}
+.tg-contactus{
+	width:100%;
+	float:left;
+}
+.tg-startyourwork{
+	width:100%;
+	float:left;
+}
+.tg-startyourwork .tg-titlevone{padding:0;}
+.tg-startyourwork .tg-titlevone h3 span{
+	color:#1c1c1c;
+	margin:0 0 13px;
+}
+.tg-formstartproject{
+	width:auto;
+	float:none;
+	clear:both;
+	margin:0 -10px;
+	overflow:hidden;
+}
+.tg-formstartproject .form-group{
+	width:50%;
+	padding:0 10px;
+}
+.tg-formstartproject .form-group:nth-child(n+3){width:100%;}
+.tg-formstartproject .form-group:last-child{margin:0;}
+.tg-formstartproject .form-group input{border-radius:0;}
+.tg-formstartproject .form-group textarea{
+	width:100%;
+	float:left;
+	resize:none;
+	height:265px;
+	border-radius:0;
+}
+/* =============================================
+			Contact Us V Two Style				
+============================================= */
+
+.tg-contactusvtwo .tg-startyourwork .tg-title{
+	margin:0 0 45px;
+	text-align:center;
+}
+
+.tg-btn{
+	background-color:$color-blue;
+	border:2px solid $color-blue;
+	color:white;
+	padding:10px 40px;
+	margin-top:20px;
+	border-radius:50px;
+	font-size:1.3rem;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+    &:hover{
+      color:$color-blue;
+      span{
+      	color:$color-blue;
+      }
+      &:before{ background:#fff;}
+    }
+}
+
+/* =============================================
+			Contact Us V Three Style			
+============================================= */
+.tg-headervthree .tg-socialicons{border-left: 1px solid rgba(255, 255, 255, 0.50);}
+.tg-contactusvthree{
+	position:relative;
+	background:#222428;
+}
+.tg-contactuscontent{
+	width:50%;
+	float:left;
+	padding:211px 30px 55px;
+	background-color: white;
+}
+.tg-contactuscontent .tg-title h3{
+	color:#fff;
+	font-size:36px;
+	line-height:36px
+}
+.tg-contactuscontent .tg-title{margin:0 0 35px;}
+.tg-contactuscontent .tg-title h3 span{
+	color:#fff;
+	margin:0 0 16px;
+}
+.tg-contactuscontent .tg-address li{
+	padding:0;
+	width:100%;
+	float:left;
+	text-align:left;
+}
+.tg-contactuscontent .tg-address li + li{
+	border:0;
+	padding:15px 0 0;
+}
+.tg-contactuscontent .tg-address li span,
+.tg-contactuscontent .tg-address li a,
+.tg-contactuscontent .tg-address li address{
+	color:#fff;
+	font-weight:300;
+}
+.tg-contactuscontent .tg-address li address{
+	margin:0;
+	font-style:normal;
+}
+.tg-contactuscontent .tg-socialicons{
+	width:100%;
+	float:left;
+	padding:40px 0 0;
+}
+.tg-contactuscontent .tg-socialicons li:first-child{padding-left:0;}
+.tg-getintouch{
+	z-index:9;
+	width:100%;
+	float:left;
+	padding:75px 0 0;
+	position:relative;
+}
+.tg-formcontactus{
+	width: auto;
+	float: none;
+	clear: both;
+	margin: 0 -12px;
+	overflow: hidden;
+}
+.tg-formcontactus .form-group {
+	margin: 0 0 25px;
+	position: relative;
+}
+.tg-formcontactus .form-group input {
+	border: 0;
+	width: 100%;
+	border-radius: 0;
+	background: none;
+	padding: 10px 20px 0 0;
+	border-bottom: 1px solid #cfd0d0;
+}
+.tg-formcontactus .form-group textarea {
+	border: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+	resize: none;
+	height: 200px;
+	background:none;
+	border-radius: 0;
+	border-bottom: 1px solid #cfd0d0;
+}
+.tg-formcontactus .form-group textarea:focus{border-width:2px;}
+.tg-formcontactus .form-group textarea::-webkit-input-placeholder,
+.tg-formcontactus .form-group textarea::-moz-placeholder,
+.tg-formcontactus .form-group textarea:-ms-input-placeholder,
+.tg-formcontactus .form-group textarea:-moz-placeholder{
+	color:#fff;
+}
+.tg-formcontactus .effect-18 ~ label {color: #b0b0b0;}
+.tg-formcontactus .effect-18:focus ~ label,
+.tg-formcontactus .has-content.effect-18 ~ label {color: #b0b0b0;}
+.tg-mapholder{
+	top:0;
+	right:0;
+	width:50%;
+	height:100%;
+	position:absolute;
+}
+.tg-contactusvthree .tg-map{height:100%;}
+/* =============================================
+			Contact Us V Four Style				
+============================================= */
+.tg-headervone.tg-bgdark{margin:0;}
+.tg-contactusvfour{padding:105px 0;}
+.tg-contactusvfour .tg-sectionhead{padding:0 0 75px;}
+.tg-contactusvfour .tg-sectiontitle{position:relative;}
+.tg-contactusvfour .tg-sectiontitle:before{
+	left:50%;
+	bottom:0;
+	content:'';
+	width:90px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	margin:0 0 0 -45px;
+}
+.tg-contactusvfour .tg-address{border:1px solid #5e5f62;}
+.tg-contactusvfour .tg-address li + li{border-color:#5e5f62;}
+.tg-contactusvfour .tg-address li i,
+.tg-contactusvfour .tg-address li h2,
+.tg-contactusvfour .tg-address li span,
+.tg-contactusvfour .tg-address li a{color: #000;}

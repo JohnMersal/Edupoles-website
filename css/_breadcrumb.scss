@@ -1,0 +1,35 @@
+
+/* =============================================
+			Theme BreadCrumb Style				
+============================================= */
+.tg-breadcrumb {
+	padding: 0;
+	margin:0;
+	color: #fff;
+	float: right;
+	list-style: none;
+	text-align: right;
+	text-transform: uppercase;
+	font: 400 14px/44px 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.tg-breadcrumb li {
+	width:auto;
+	list-style-type:none;
+	display: inline-block;
+	vertical-align: middle;
+	line-height:inherit;
+	padding:0 15px;
+	position:relative;
+}
+.tg-breadcrumb li:after {
+	content:'-';
+	position:absolute;
+	top:0;
+	left:-3px;
+}
+.tg-breadcrumb li:last-child { padding: 0 0 0 15px;}
+.tg-breadcrumb li:first-child:after { display: none; }
+.tg-breadcrumb li a {
+	display:block;
+	color:#fff;
+}

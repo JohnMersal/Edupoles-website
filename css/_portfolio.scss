@@ -1,0 +1,300 @@
+
+/*==============================================================================================
+										Portfolio Pages Style									
+==============================================================================================*/
+.tg-portfoliotitle{
+	width:100%;
+	float:left;
+	padding:15px 10px 10px 10px;
+	background:#fff;
+	text-align:center;
+}
+.tg-portfoliotitle h2{
+	color:#1c1c1c;
+	font-size:1em;
+	font-weight:400;
+	margin:0 0 10px;
+	line-height:1em;
+}
+.tg-portfoliotitle h2 a{display:block;}
+.tg-portfoliotitle span{
+	color:#929292;
+	display:block;
+	font-size:1em;
+	font-weight:400;
+	line-height:1em;
+}
+.tg-portfoliotitle span a{
+	color:#929292;
+	display:block;
+}
+
+/* =============================================
+			Portfolio V Six Style				
+============================================= */
+.tg-portfoliovsix .tg-galleryfilterable{margin: -15px 0;}
+.tg-portfoliovsix .tg-portfolioitem{
+	padding: 0 15px;
+	margin: 15px 0;
+}
+.tg-portfoliovsix .tg-portfolioitem:hover .tg-portfoliotitle{background:#141519;}
+.tg-portfoliovsix .tg-portfolioitem:hover .tg-portfoliotitle h2 a{color:#fff;}
+/* =============================================
+			Portfolio Detail Style				
+============================================= */
+.tg-portfoliodetail,
+.tg-portfoliodetailslider,
+.tg-portfoliodetailslider .item{
+	width:100%;
+	float:left;
+}
+.tg-portfoliodetailslider{margin:0 0 70px;}
+.tg-portfoliodetailslider .item figure{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.tg-portfoliodetailslider .item figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-portfoliocontent{
+	width:100%;
+	float:left;
+	position:relative;
+	padding:0 430px 0 0;
+}
+.tg-portfoliocontent h2{
+	font-size:24px;
+	margin:0 0 15px;
+	font-weight:400;
+	line-height:20px;
+}
+.tg-btnviewweb{
+	float:left;
+	display:block;
+	font-size:15px;
+	line-height:15px;
+	font-family: 'Lora', Arial, Helvetica, sans-serif;
+}
+.tg-pagination ul li.tg-pagetitle span{
+	width:auto;
+	background:none;
+	text-transform:uppercase;
+}
+.tg-projectdetail{
+	top:0;
+	right:0;
+	width:380px;
+	margin:35px 0 0;
+	padding:30px 0 0;
+	position:absolute;
+	border-top:1px solid #ebebeb;
+}
+.tg-projectdetail ul{
+	width:100%;
+	float:left;
+	list-style:none;
+}
+.tg-projectdetail ul li{
+	width:100%;
+	float:left;
+	list-style-type:none;
+}
+.tg-projectdetail ul li + li{margin:35px 0 0;}
+.tg-projectdetail ul li > span:first-child{
+	width:30%;
+	float:left;
+	color:#1c1c1c;
+	font-size:18px;
+	font-weight:500;
+	line-height:18px;
+}
+.tg-projectdetail ul li > span:last-child{
+	float:left;
+	color:#929292;
+	font-size:1em;
+	font-weight:300;
+	line-height:1em;
+}
+.tg-projectdetail .tg-postmetadata li{
+	width:auto;
+	line-height:normal;
+}
+.tg-projectdetail .tg-postmetadata li + li{margin:0;}
+.tg-postmetadatashare{margin:30px 0 0;}
+.tg-postmetadatashare li{padding:0 12px;}
+.tg-postmetadatashare li:before{display:none;}
+.tg-postmetadatashare li:first-child{padding-left:0;}
+.tg-postmetadatashare li a{
+	color:#929292;
+	display:block;
+	font-size:16px;
+	line-height:16px;
+	text-transform:capitalize;
+}
+.tg-postmetadatashare li a i{margin:0 10px 0 0;}
+.tg-postmetadatashare li a span{
+	color:#929292;
+	font-size:1em;
+	line-height:1em;
+}
+/* =============================================
+			Portfolio Detail V Two Style		
+============================================= */
+.tg-portfolioimgholder{
+	overflow:hidden;
+	margin: 120px 0 0;
+	padding:0 70px 0 0;
+}
+.tg-portfoliodetailimg{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.tg-portfoliodetailimg img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-portfoliodetailimg + .tg-portfoliodetailimg{margin:30px 0 0;}
+.tg-portfoliocontentholder{
+	width:35%;
+	float:right;
+	margin: 120px 0 0;
+}
+.tg-portfoliodetailvtwo .tg-portfoliocontent{padding:0;}
+.tg-portfoliodetailvtwo .tg-projectdetail{
+	width:100%;
+	float:left;
+	position:static;
+}
+.tg-portfoliodetailvsix .tg-portfoliocontent{padding:0 120px 0 0;}
+/* =============================================
+			Portfolio Detail V Three Style		
+============================================= */
+.tg-portfoliodetailvthree .tg-portfoliocontent{padding:0;}
+.tg-portfoliodetailvthree .tg-portfoliocontent .tg-projectdetail{
+	width:100%;
+	float:left;
+	position:static;
+}
+/* =============================================
+			Portfolio Detail V Four Style		
+============================================= */
+.tg-portfoliodetailvfour{padding:0;}
+.tg-portfoliodetailslidervtwo{margin:-53px 0 70px;}
+.tg-portfoliodetailslidervtwo .tg-sliderdots{
+	bottom:20px;
+	height:12px;
+}
+/* =============================================
+			Portfolio Detail V Five Style		
+============================================= */
+.tg-slidercontent img{
+	margin:0 auto;
+	display:block;
+}
+.tg-portfoliodetailvfive{padding:0;}
+.tg-portfoliodetailvfive .tg-portfoliocontent{
+	padding:0 0 120px;
+	text-align:center;
+}
+.tg-portfoliodetailvfive .tg-portfoliocontent h2{
+	margin:0;
+	font-size:36px;
+	font-weight:500;
+	line-height:36px;
+}
+.tg-portfolioinfo{
+	width:100%;
+	float:left;
+	list-style:none;
+	line-height:normal;
+	padding:40px 0 40px;
+}
+.tg-portfolioinfo li{
+	width:100%;
+	float:left;
+	color:#787878;
+	font-weight:400;
+	line-height:inherit;
+	list-style-type:none;
+}
+.tg-portfolioinfo li + li{padding:20px 0 0;}
+.tg-portfolioinfo li span{display:block;}
+.tg-portfolioinfo li span a{
+	color:#787878;
+	margin:0 0 0 5px;
+	text-decoration:underline;
+}
+.tg-portfoliodetailvfive .tg-portfoliocontent .tg-postmetadata{
+	border:0;
+	margin:0;
+	padding:0;
+	width:auto;
+	float:none;
+	display:inline-block;
+}
+.tg-portfoliodetailvfive .tg-parallax{padding:280px 0;}
+.tg-portfoliodetailvfive .tg-sectionhead,
+.tg-portfoliodetailvfive .tg-bglight .tg-rectorsmessage,
+.tg-portfoliodetailvfive .tg-sectionhead .tg-sectiontitle{padding:0;}
+.tg-portfolioimageslider{
+	width:100%;
+	float:left;
+}
+.tg-portfolioimg{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.tg-portfolioimg img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-clientreview .tg-box{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.tg-clientreview .tg-box .tg-stars span,
+.tg-clientreview .tg-box .tg-stars{
+	clear:both;
+	float:none;
+	height:25px;
+	font-size:25px;
+	line-height:25px;
+	text-align:left;
+	display:inline-block;
+	vertical-align:middle;
+}
+.tg-clientreview .tg-box .tg-stars span{width:100%;}
+.tg-clientreview .tg-box .tg-stars{
+	width:135px;
+	padding:0 0 45px;
+	line-height:21px;
+}
+.tg-clientreview .tg-box .tg-stars span:after,
+.tg-clientreview .tg-box .tg-stars:before{
+	font-size:25px;
+	line-height:25px;
+}
+.tg-clientfeedback.tg-clientreview .tg-box h3{
+	font-size:36px;
+	margin:0 0 30px;
+	line-height:30px;
+}
+.tg-clientreview .tg-box .tg-description{padding:0 0 60px;}
+.tg-clientname{
+	width:100%;
+	float:left;
+	display:block;
+	font-size:15px;
+	line-height:15px;
+	text-align:center;
+	font-family: 'Lora', Arial, Helvetica, sans-serif;
+}

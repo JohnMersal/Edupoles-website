@@ -1,0 +1,580 @@
+
+/*==============================================================================================
+										About Us Pages Style									
+==============================================================================================*/
+/* =============================================
+			About us V One						
+============================================= */
+.tg-title h2{
+	margin: 0;
+	color: #1c1c1c;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+}
+.tg-titlevtwo{padding: 0 0 40px;}
+.tg-textbox{
+	width: 100%;
+	float: left;
+}
+.tg-textbox .tg-description{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 36px;
+}
+.tg-textbox .tg-description p:first-child{margin: 0;}
+.tg-textbox .tg-description p{
+	margin: 40px 0 0;
+	line-height: inherit;
+}
+.tg-categories{
+	width: 100%;
+	float: left;
+	padding: 30px;
+	list-style: none;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 23px;
+	background: #f7f8f9;
+}
+.tg-categories li{
+	width: 100%;
+	float: left;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-categories li + li{padding: 25px 0 0;}
+.tg-categories li a{color: #222;}
+.tg-categories li a span{padding: 0 5px 0 0;}
+.tg-counterbox{
+	width: 100%;
+	float: left;
+	border: 4px solid #eee;
+	border-left: 0;
+	border-right: 0;
+}
+.tg-counterbox .tg-statisticsvthree li{padding: 40px 0;}
+.tg-teammembersvthree .tg-teammember figure{
+	border-radius: 0;
+	margin: 0 0 20px;
+}
+.tg-teammembersvthree .tg-membercontent{
+	padding: 0;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.tg-teammembersvthree .tg-membercontent .tg-socialicons{
+	top: 0;
+	right: 0;
+	width: auto;
+	position: absolute;
+}
+.tg-teammembersvthree .tg-membercontent .tg-socialicons li{padding: 0 0 0 10px;}
+.tg-teammembersvthree .tg-membercontent .tg-socialicons li a{
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	border: 1px solid #1c1c1c;
+}
+/* =============================================
+			About us V Two						
+============================================= */
+.tg-whatwedothreecolumns{
+	width: 100%;
+	float: left;
+}
+.tg-column{
+	margin: 0;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.tg-whatwedothreecolumns .tg-column{min-height: 370px;}
+.tg-whatwedothreecolumns .tg-column figcaption{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	position: absolute;
+	background: rgba(0,0,0,0.30);
+}
+.tg-whatwedothreecolumns .tg-column figcaption h3{
+	margin: 0;
+	left: 30px;
+	bottom: 25px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28px;
+	position: absolute;
+}
+.tg-whatwedothreecolumns .tg-column figcaption h3 em{
+	display: block;
+	font-style: normal;
+	font: italic 400 15px/15px 'Lora', Arial, Helvetica, sans-serif;
+}
+.tg-whatwedothreecolumns .tg-column figcaption h3 span{
+	display: block;
+	padding: 8px 0 4px;
+}
+.tg-teammembersvfour .tg-teammember figure{border-radius: 0;}
+.tg-teammembersvfour .tg-teammember figure figcaption{
+	display: block;
+	background: rgba(0,0,0,0.60);
+}
+.tg-teammembersvfour .tg-teammember figure figcaption .tg-membercontent{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 30px;
+	position: absolute;
+}
+.tg-teammembersvfour .tg-teammember figure figcaption .tg-membercontent .tg-title{
+	padding: 0;
+	width: auto;
+	text-align: left;
+}
+.tg-teammembersvfour .tg-membercontent .tg-socialicons{
+	width: auto;
+	float: right;
+	padding: 11px 0;
+	line-height: 20px;
+}
+.tg-teammembersvfour .tg-membercontent .tg-socialicons li{
+	padding: 0 0 0 10px;
+	line-height: inherit;
+}
+.tg-teammembersvfour .tg-membercontent .tg-socialicons li a{
+	width: auto;
+	height: auto;
+	line-height: inherit;
+}
+/* =============================================
+			About us V Three					
+============================================= */
+.tg-internalnav{
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	line-height: 60px;
+	background: #222428;
+	text-transform: uppercase;
+}
+.tg-internalnav ul{
+	width: 100%;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: inherit;
+}
+.tg-internalnav ul li{
+	padding: 0 15px;
+	line-height: inherit;
+	vertical-align: top;
+	display: inline-block;
+	list-style-type: none;
+}
+.tg-internalnav ul li a{
+	color: #afafaf;
+	display: block;
+	line-height: inherit;
+}
+.tg-internalnav ul li a:hover,
+.tg-internalnav ul li a.tg-current{color: #fff;}
+.tg-introductions{
+	width: 100%;
+	float: left;
+	color: #fff;
+	padding: 40px 0;
+	text-align: left;
+}
+.tg-introductions h3{
+	color: #fff;
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0 0 30px;
+	padding: 0 18% 0 0;
+}
+.tg-introductions .tg-description{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.tg-introductions .tg-description p:first-child{margin: 0;}
+.tg-introductions .tg-description p{
+	margin: 40px 0 0;
+	line-height: inherit;
+}
+.tg-themecollapse{
+	width: 100%;
+	float: left;
+}
+.tg-themecollapse h3{
+	width: 100%;
+	float: left;
+	padding: 0 22px;
+	font-size: 14px;
+	line-height: 44px;
+	margin: 0 0 10px;
+	background: #fff;
+	border-radius: 22px;
+}
+.tg-themecollapse h3 a{display: block;}
+.tg-themecollapse h3:hover a,
+.tg-themecollapse h3.open a{color: #fff;}
+.tg-themecollapsecontent{
+	width: 100%;
+	float: left;
+	padding: 20px 0 30px;
+}
+.tg-themecollapsecontent .tg-description{padding: 0;}
+.tg-themecollapsecontent .tg-description p{
+	margin: 0;
+	font: 300 14px/24px 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.tg-studiogallery{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.tg-studiogallery .item{
+	margin: 0;
+	width: 100%;
+	float: left;
+}
+.tg-studiogallery .item img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.tg-teammembersvfive .tg-teammember{height: 493px;}
+.tg-teammembersvfive .tg-teammember figure{border-radius: 0;}
+.tg-teammembersvfive .tg-membercontent{
+	width: 100%;
+	float: left;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	background: #232428;
+}
+.tg-teammembersvfive .tg-membercontent .tg-title{padding: 0;}
+.tg-teammembersvfive .tg-membercontent .tg-title h3{font-weight: 400;}
+.tg-teammembersvfive .tg-membercontent .tg-title h3,
+.tg-teammembersvfive .tg-membercontent .tg-title h3 a,
+.tg-teammembersvfive .tg-membercontent .tg-title h3 span{color: #fff;}
+.tg-teammembersvfive .tg-membercontent .tg-socialicons{
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	padding: 15px 0 0;
+	background: none;
+	line-height: 20px;
+	visibility: hidden;
+	position: absolute;
+}
+.tg-teammembersvfive .tg-membercontent .tg-socialicons li{
+	float: none;
+	padding: 0 5px;
+	vertical-align: top;
+	display: inline-block;
+}
+.tg-teammembersvfive .tg-membercontent .tg-socialicons li a{
+	color: #fff;
+	width: auto;
+	height: auto;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	border-radius: 0;
+	line-height: normal;
+}
+.tg-teammembersvfive .tg-membercontent .tg-socialicons li a i{
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+.tg-teammembersvfive .tg-teammember:hover .tg-membercontent .tg-socialicons{
+	opacity: 1;
+	position: static;
+	visibility: visible;
+}
+/* =============================================
+			About us V Four						
+============================================= */
+.tg-servicesvten .tg-service{padding: 0;}
+.tg-servicesvten .tg-serviceicon{
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	display: block;
+	overflow: hidden;
+	margin: 0 0 30px;
+	line-height: 120px;
+	border-radius: 50%;
+	text-align: center;
+}
+.tg-servicesvten .tg-serviceicon i{
+	color: #fff;
+	width: 100%;
+	line-height: inherit;
+}
+.tg-servicecontent{
+	width: 100%;
+	float: left;
+	padding: 30px;
+	min-height: 358px;
+	text-align: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.tg-servicesvten .tg-service figure{
+	float: left;
+	position: static;
+}
+.tg-statisticsvfour{
+	overflow: hidden;
+	border-radius: 10px;
+}
+.tg-statisticsvfour li{
+	width: 50%;
+	float: left;
+	padding: 90px 0;
+	background: none !important;
+}
+.tg-statisticsvfour li h3,
+.tg-statisticsvfour li h4 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.tg-statisticsvfour li h3 {
+	font-size: 54px;
+	line-height: 44px;
+	margin: 0 0 10px;
+}
+.tg-statisticsvfour li h3:before{display: none;}
+/* =============================================
+			About us V Five						
+============================================= */
+.tg-aboutusvtwo{padding: 0;}
+.tg-aboutusvtwo h2{
+	margin: 0;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 46px;
+}
+.tg-aboutusvtwo h2 span{
+	display: block;
+	padding: 0 0 10px;
+	text-transform: none;
+	font: italic 500 15px/18px 'Lora', Arial, Helvetica, sans-serif;
+}
+.tg-aboutusvtwo .tg-list{padding: 0;}
+.tg-parallaxcreativeworks{
+	padding:120px 0;
+	background: rgba(0,0,0,0.50);
+}
+.tg-creativetabs .tg-themetabnav{
+	display:table;
+	table-layout:fixed;
+}
+.tg-creativetabs .tg-themetabnav li{
+	float:none;
+	display:table-cell;
+}
+.tg-creativetabs .tg-themetabnav li a{color:#fff;}
+.tg-creativetabs .tg-themetabcontent{padding:65px 0 0;}
+.tg-creativetabcontent{
+	width:100%;
+	float:left;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+}
+.tg-creativetabcontent h2{
+	margin:0 0 25px;
+	line-height:36px;
+}
+.tg-creativetabcontent figure{
+	margin:0;
+	float:right;
+	overflow:hidden;
+	border-radius:50%;
+	border:2px solid #fff;
+}
+.tg-creativetabcontent figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+/* =============================================
+			About us V Six						
+============================================= */
+.tg-aboutcreative{
+	padding:0 0 120px;
+	border-bottom:1px solid #dadada;
+}
+.tg-aboutcreative .tg-description{padding:0;}
+.tg-aboutskills{
+	padding:120px 0;
+	border-bottom:1px solid #dadada;
+}
+.tg-aboutskills .tg-skills{padding:0;}
+.tg-aboutskills .tg-skill span{
+	color:#222;
+	font-size:16px;
+	font-weight:500;
+	padding:0 0 16px;
+	line-height:16px;
+}
+.tg-aboutskills .tg-skill span + span{
+	color:#fff;
+	display:block;
+	padding:0 8px;
+	font-size:13px;
+	background:#222;
+	font-weight:400;
+	line-height:22px;
+	border-radius:5px;
+	position:relative;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tg-aboutskills .tg-skill span + span:after{
+	left:50%;
+	top:100%;
+	width: 0;
+	height: 0;
+	content:'';
+	position:absolute;
+	margin:0 0 0 -6px;
+	border-left: 7px solid transparent !important;
+	border-right: 7px solid transparent !important;
+	border-top: 7px solid #222;
+}
+/* =============================================
+			About us V Seven					
+============================================= */
+.tg-headerveleven .tg-headercontent{
+	text-align:right;
+	border-color:#c9c9c9;
+}
+.tg-headerveleven .tg-logo {margin: 8px 0 8px 30px;}
+.tg-headerveleven .tg-nav{
+	font-weight:500;
+	line-height:66px;
+}
+.tg-headerveleven .tg-navigation > ul > li > a{color:#1d1d1d;}
+.tg-headerveleven .tg-socialicons{border-left:1px solid #bbb;}
+.tg-headerveleven .tg-socialicons li a,
+.tg-headerveleven .tg-socialicons li a i{
+	color:#606060;
+	font-size:16px;
+	line-height:16px;
+}
+.tg-aboutauthor{
+	width:100%;
+	float:left;
+}
+.tg-aboutauthorimg{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.tg-aboutauthorcontent{
+	width:50%;
+	float:right;
+	background:#fff;
+	padding:280px 70px 225px;
+}
+.tg-aboutauthorcontent h2{
+	font-size:54px;
+	margin:0 0 50px;
+	font-weight:bold;
+	line-height:50px;
+}
+.tg-aboutauthorcontent h2 em{
+	display:block;
+	margin:20px 0 0;
+	font-style:normal;
+}
+.tg-aboutauthorcontent h2 span{
+	color:#929292;
+	display:block;
+	font-size:15px;
+	margin:0 0 22px;
+	line-height:15px;
+	font-style:italic;
+	font-family: 'Lora', Arial, Helvetica, sans-serif
+}
+.tg-aboutauthorcontent .tg-description p{color:#222428;}
+.tg-signature{
+	float:left;
+	display:block;
+}
+.tg-authorskill{
+	width:100%;
+	float:left;
+	padding:140px 0 0;
+}
+.tg-authorskill .tg-skill span {
+	color: #222;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0 0 16px;
+	line-height: 16px;
+}
+.tg-authorskill .tg-skill span + span {
+	color: #fff;
+	display: block;
+	padding: 0 8px;
+	font-size: 13px;
+	background: #222;
+	font-weight: 400;
+	line-height: 22px;
+	border-radius: 5px;
+	position: relative;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tg-authorskill .tg-skill span + span:after {
+	left: 50%;
+	top: 100%;
+	width: 0;
+	height: 0;
+	content: '';
+	position: absolute;
+	margin: 0 0 0 -6px;
+	border-left: 7px solid transparent !important;
+	border-right: 7px solid transparent !important;
+	border-top: 7px solid #222;
+}
+.tg-aboutauthorcontent .tg-socialicons{
+	width:100%;
+	float:left;
+}

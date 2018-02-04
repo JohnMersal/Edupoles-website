@@ -1,0 +1,164 @@
+
+/* -------------------------------- 
+Bottom to Top
+-------------------------------- */
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+      left: 30px;
+  position: fixed;
+  z-index: 15;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgb(243, 193, 48) url(../images/top-arrow.png) no-repeat center 50%;
+  border-radius: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #f3c130;
+  opacity: 1;
+}
+
+/* =============================================
+			Website Loader						
+============================================= */
+#loader-wrapper {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	position: fixed;
+}
+#loader {
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	display: block;
+	z-index: 10001;
+	position: relative;
+	border-radius: 50%;
+	margin: -75px 0 0 -75px;
+	border: 3px solid transparent;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+#loader:before {
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #0089ff;
+	-webkit-animation: spin 3s linear infinite;
+	animation: spin 3s linear infinite;
+}
+#loader:after {
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #ffffff;
+	-webkit-animation: spin 1.5s linear infinite;
+	animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+#loader-wrapper .loader-section {
+	top: 0;
+	width: 51%;
+	height: 100%;
+	position: fixed;
+	background: #11141b;
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+#loader-wrapper .loader-section.section-left {left: 0;}
+#loader-wrapper .loader-section.section-right {right: 0;}
+.loaded #loader-wrapper .loader-section.section-left {
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	-o-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+.loaded #loader-wrapper .loader-section.section-right {
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	-o-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+.loaded #loader {
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.loaded #loader-wrapper {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: all 0.3s 1s ease-out;
+	-o-transition: all 0.3s 1s ease-out;
+	transition: all 0.3s 1s ease-out;
+}
+
+

@@ -1,0 +1,65 @@
+
+/* =============================================
+			Our Process							
+============================================= */
+.tg-ourprocess{
+	width:100%;
+	float:left;
+	padding:120px 0;
+	background:#fff;
+}
+.tg-ourprocess:nth-child(even){background:#f7f7f7;}
+.tg-processcontent{
+	height:283px;
+	text-align:left;
+	overflow:hidden;
+	padding:0 70px 0 0;
+	-webkit-box-alt: center;
+	-ms-flex-alt: center;
+	alt-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.tg-processcontent .tg-sectionheadvtwo{
+	text-align:left;
+	padding:0 0 35px;
+}
+.tg-processcontent .tg-sectionheadvtwo .tg-sectiontitle{margin:0;}
+.tg-processcontent .tg-sectionheadvtwo .tg-sectiontitle:before{
+	left:0;
+	margin:0;
+}
+.tg-processcontent .tg-sectionheadvtwo .tg-sectiontitle h2{
+	font-size:32px;
+	font-weight:500;
+	line-height:32px;
+}
+.tg-processimg{
+	margin:0;
+	float:right;
+}
+.tg-processimg img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-processcontent .tg-description p{
+	margin:0;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.tg-ourprocess:nth-child(even) .tg-processimg{float:left;}
+.tg-ourprocess:nth-child(even) .tg-processcontent{padding:0 0 0 70px;}

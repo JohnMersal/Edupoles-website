@@ -1,0 +1,116 @@
+.tg-formtheme{
+	width: 100%;
+	float: left;
+}
+.tg-formtheme fieldset{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+/*==============================================================================================
+										Theme Footers											
+==============================================================================================*/
+.tg-footercolumns{
+	width: 100%;
+	float: left;
+	color: #bebebe;
+	padding: 0 0 20px;
+}
+.tg-footercolumn{padding: 0px 0 0;}
+.tg-footercolumn.tg-widgettext{padding: 0;}
+.tg-footercolumn .tg-logo{
+	float: left;
+	margin: 0 0 15px;
+	width: 60%;
+}
+.tg-widgettext .tg-description{padding: 0 0 40px;}
+.tg-widgettext .tg-description p{
+	margin: 0;
+	font-weight: 300;
+}
+.tg-widgettext h4{
+	clear: both;
+	color: #fff;
+	margin: 0 0 20px;
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: capitalize;
+}
+.tg-contactinfo{
+	width: 100%;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.tg-contactinfo li{
+	width: 100%;
+	float: left;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-contactinfo li + li{padding: 15px 0 0;}
+.tg-contactinfo li a{color: #bebebe;}
+.tg-contactinfo li address{
+	margin: 0;
+	font-style: normal;
+}
+.tg-widgetusefulllinks ul{
+	width: 50%;
+	float: left;
+}
+.tg-widgetsubscribe .tg-formsubscribe{padding: 0 0 20px;}
+.tg-widgetsubscribe .tg-formsubscribe fieldset{position: relative;}
+.tg-widgetsubscribe .tg-formsubscribe .form-control{
+	border: 0;
+	width: 100%;
+	background: #3b3b3b;
+	padding-right: 50px;
+}
+.tg-widgetsubscribe .tg-formsubscribe button{
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	border-radius: 4px;
+	position: absolute;
+	background: #f2960f;
+}
+.tg-footer{
+	width: 100%;
+	float: left;
+	color: #bebebe;
+	font-size: 14px;
+	font-weight: 400;
+	padding:30px 0 0;
+	background: #4D4D4D;
+}
+.tg-footerbar{
+	width: 100%;
+	float: left;
+	color: #888;
+	padding: 20px 0;
+	border-top: 1px solid #494949;
+}
+.tg-copyright{
+	float: left;
+	font-size: 14px;
+	line-height: 24px;
+}
+.tg-by{float: right;}
+.tg-by a,
+.tg-by a:hover,
+.tg-by a:focus{color: #fff;}
+/*==============================================
+			Theme Footer v1 Style				
+==============================================*/
+.tg-footervone .tg-copyright{
+	padding: 0;
+	width: auto;
+}

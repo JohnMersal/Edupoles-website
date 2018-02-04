@@ -1,0 +1,195 @@
+
+/* =============================================
+			404 Error							
+============================================= */
+.tg-404errorpage{
+	background: url(../images/404error-img.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tg-404error{
+	width:100%;
+	float:left;
+	height:100%;
+	text-align:center;
+	padding:320px 0 250px;
+}
+.tg-404errorcontent{
+	width:100%;
+	float:left;
+}
+.tg-404errorcontent h1{
+	color:#fff;
+	margin:0 0 22px;
+	font-size:150px;
+	font-weight:bold;
+	line-height:110px;
+}
+.tg-404errorcontent h2{
+	color:#fff;
+	font-size:54px;
+	margin:0 0 15px;
+	font-weight:bold;
+	line-height:50px;
+}
+.tg-404errorcontent .tg-description{padding:0 0 30px;}
+.tg-404errorcontent .tg-description p{
+	margin:0;
+	color:#fff;
+	font-size:18px;
+	font-weight:400;
+	line-height:18px;
+}
+.tg-404errorcontent .tg-btn span{color:#fff;}
+/* =============================================
+			Maintenance Style					
+============================================= */
+body.tg-maintenancepage{
+	background: url(../images/maintenance-img.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body.tg-maintenancepage .tg-main,
+body.tg-maintenancepage .tg-wrapper{height:100%;}
+.tg-maintenance{
+	width:100%;
+	float:left;
+	height:100%;
+	text-align:left;
+	padding:280px 0 200px 100px;
+}
+.tg-maintenenacecontent{
+	max-width:700px;
+	width:100%;
+	float:left;
+}
+.tg-maintenenacecontent h1{
+	color:#fff;
+	margin:0 0 40px;
+	font-size:42px;
+	font-weight:bold;
+	line-height:50px;
+}
+.tg-maintenenacecontent h1 span{display:block;}
+.tg-maintenenacecontent .tg-description{padding:0 25% 50px 0;}
+.tg-maintenenacecontent .tg-description p{
+	margin:0;
+	color:#fff;
+}
+.tg-maintenenacecontent .tg-skills span{
+	font-size:16px;
+	font-weight:400;
+	line-height:16px;
+}
+.tg-maintenenacecontent .tg-skill span + span {
+	color: #fff;
+	display: block;
+	padding: 0 8px;
+	font-size: 13px;
+	background: #222;
+	font-weight: 400;
+	line-height: 22px;
+	border-radius: 5px;
+	position: relative;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tg-maintenenacecontent .tg-skill span + span:after {
+	left: 50%;
+	top: 100%;
+	width: 0;
+	height: 0;
+	content: '';
+	position: absolute;
+	margin: 0 0 0 -6px;
+	border-left: 7px solid transparent !important;
+	border-right: 7px solid transparent !important;
+	border-top: 7px solid #222;
+}
+/* =============================================
+			Comingsoon Style					
+============================================= */
+.tg-comingsooncontent{
+	width:100%;
+	float:left;
+	text-align:center;
+	padding:200px 0 80px;
+}
+.tg-comingsooncontent h2{
+	color:#fff;
+	font-size:54px;
+	font-weight:500;
+	line-height:50px;
+	margin:0 0 92px;
+}
+.tg-cscounter{
+	width:100%;
+	float:left;
+	padding:0 0 65px;
+	text-align:center;
+}
+.tg-counterholder{
+	width:25%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.tg-counterholder span{
+	color:#fff;
+	display:block;
+	font-size:75px;
+	margin:0 0 28px;
+	font-weight:600;
+	line-height:60px;
+	text-transform:capitalize;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.tg-counterholder span:last-child{
+	margin:0;
+	font-size:24px;
+	font-weight:400;
+	line-height:24px;
+	font-style:italic;
+	font-family: 'Lora', Arial, Helvetica, sans-serif;
+}
+.tg-comingsooncontent .tg-description{padding:0 0 100px;}
+.tg-comingsooncontent .tg-description p{
+	margin:0;
+	color:#fff;
+	font-size:18px;
+	font-weight:400;
+	line-height:18px
+}
+.tg-comingsooncontent .tg-formsubscribe{
+	float:none;
+	width:350px;
+	overflow:hidden;
+	margin:0 auto 175px;
+}
+.tg-comingsooncontent .tg-formsubscribe .form-group{
+	margin:0;
+	position:relative;
+}
+.tg-comingsooncontent .tg-formsubscribe input{height:50px;}
+.tg-comingsooncontent .tg-formsubscribe button {
+	top: 5px;
+	right: 5px;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	border-radius: 4px;
+	position: absolute;
+	background: #3b55e6;
+}
+.tg-comingsooncontent .tg-socialicons li{
+	float:none;
+	padding:0 1px;
+	display:inline-block;
+	vertical-align:middle;
+}
