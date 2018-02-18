@@ -155,7 +155,7 @@ body{
 }
 // Hero banner
 .tg-hero{
-  height:70vh;
+  height:80vh;
   position: relative;
   &:before{
     content:'';
@@ -175,19 +175,19 @@ body{
   }
   .tg-sectionspace{
     // padding-top:0px;
-    height:70vh;
+    text-align: center;
+    height:80vh;
     h1{
       color:$color-orange;
       font-size: 3em;
       line-height: 1em;
-      width: 50%;
       font-weight: bold;
     }
     h3{
       font-size:2em;
       font-weight: 300;
       color:white;
-      width: 70%;
+
     }
     .watchVideo{
       background-color:$color-orange;
@@ -212,6 +212,19 @@ body{
 
 .tg-banner-cta{
   text-align: center;
+  overflow: hidden;
+  &.no-center{
+    text-align:initial;
+  }
+  .laptop{
+    // position: absolute;
+    position: relative;
+    margin-top: -80px;
+    img{
+      position: absolute;
+      right:0;
+    }
+  }
   .tg-sectionspace{
     z-index: 2;
     position: relative;
@@ -875,6 +888,37 @@ body{
   }
 }
 
+.fits-tabs{
+  list-style:none;
+  text-align: center;
+  margin-bottom:30px;
+  border-bottom:1px solid #efefef;
+  li{
+    list-style:none;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    *display: inline;
+    margin:0 10px;
+    a{
+      padding:10px 30px;
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1; /* Fix for IE7 */
+      *display: inline; /* Fix for IE7 */
+      font-size:1.5em;
+      border-bottom:5px solid transparent;
+      color: #c1c1c1;
+    }
+    &.active{
+      a{
+        color: #1c1c1c;
+        border-bottom:5px solid $color-orange;
+      }
+    }
+  }
+}
+
 // Course marketplace toggles 
 .cmp-togglers{
   list-style: none;
@@ -1264,7 +1308,36 @@ body{
 
 
 
-
+// Footer brands
+.brands{
+  .partners-list{
+    text-align: center;
+    padding:20px 0;
+    .partner{
+      display: inline-block;
+      vertical-align: middle;
+      zoom: 1; /* Fix for IE7 */
+      *display: inline; /* Fix for IE7 */
+      max-width:100px;
+      max-height:100px;
+      margin:20px;
+      opacity:0.7;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      cursor: pointer;
+      -webkit-transition: all .25s linear;
+         -moz-transition: all .25s linear;
+          -ms-transition: all .25s linear;
+           -o-transition: all .25s linear;
+              transition: all .25s linear;
+      &:hover{
+        opacity:1;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+      }
+    }
+  }
+}
 
 // TO BE REMOVED FIXED
 .tg-portfolioitem > figure > a > img{
