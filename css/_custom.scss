@@ -141,6 +141,7 @@ body{
       }
       a{
         color:white;
+        padding:3px 15px;
         &:hover{
           background-color:white;
         }
@@ -217,12 +218,13 @@ body{
     text-align:initial;
   }
   .laptop{
-    // position: absolute;
-    position: relative;
-    margin-top: -80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    height: 100%;
     img{
-      position: absolute;
-      right:0;
+      height: 100%;
     }
   }
   .tg-sectionspace{
@@ -499,6 +501,7 @@ body{
   .tg-feature figure a img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
   }
   .tg-featurecontent{
     width: 100%;
@@ -506,8 +509,8 @@ body{
     text-align: center;
   }
   .tg-featurecontent .tg-description{}
-  .tg-featurecontent .tg-title h3 {text-align: center;}
-  .tg-featurecontent .tg-description p{margin: 0;}
+  .tg-featurecontent .tg-title h3 {text-align: center; color:$color-blue;}
+  .tg-featurecontent .tg-description p{margin: 0;    font-weight: 400;color: #6d6d6d;}
 
 
 // News Section
@@ -804,6 +807,20 @@ body{
   .owl-stage-outer{
     padding:10px;
   }
+  .owl-nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    .owl-prev{
+      position: absolute;
+      left:00;
+    }
+    .owl-next{
+      position: absolute;
+      right:00;
+    }
+  }
 }
 #tg-fits1, #tg-fits2{
   margin-bottom:50px;
@@ -821,13 +838,15 @@ body{
       color:white;
       height:100%;
       width: 100%;
-      background-color:rgba(0,0,0,0.4);
+      background-color:rgba(0,0,0,0.15);
       top:0;
       left:0;
       line-height:120%;
       display: flex;
       justify-content: center; /* align horizontal */
       align-items: center; /* align vertical */
+      font-weight:bold;
+      font-size:19px;
     }
   }
 }
@@ -893,6 +912,7 @@ body{
   text-align: center;
   margin-bottom:30px;
   border-bottom:1px solid #efefef;
+
   li{
     list-style:none;
     display: inline-block;
@@ -918,7 +938,9 @@ body{
     }
   }
 }
-
+.fits-tab-pane{
+  color:black;
+}
 // Course marketplace toggles 
 .cmp-togglers{
   list-style: none;
@@ -952,6 +974,18 @@ body{
     }
   }
 }
+.aboutus{
+  .cmp-togglers{
+    padding-top:30px;
+  }
+  #about-us{
+    p{
+      font-size:18px;
+    }
+    color:black;
+  }
+}
+
 
 .search-filter-block{
   background-color: white;
@@ -1123,6 +1157,7 @@ body{
 
 }
 .course-description{
+  color: black;
   .course-details{
     position: relative;
     z-index:3;
@@ -1146,9 +1181,17 @@ body{
       h3{
         color:$color-blue;
       }
+      h2.pricer{
+        font-weight: bold;
+        font-size: 32px;    
+      }
       table, table tr, table tr td{
         border:0px solid;
         text-align:left;
+        vertical-align:middle;
+      }
+      table tr td img.partner{
+        max-width:50px;
       }
       table tr td:first-child{
         font-weight:700;
@@ -1342,4 +1385,208 @@ body{
 // TO BE REMOVED FIXED
 .tg-portfolioitem > figure > a > img{
   height:140px;
+}
+
+
+// Partners page
+.partners-page{
+  h1{
+    font-size:3em;
+    font-weight:bold;
+    text-align: center;
+  }
+  h2{
+    font-size:2em;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight:200;
+    span{
+      font-weight:bold;
+    }
+  }
+  .partners-list{
+    list-style:none;
+    padding:50px 20%;
+  }
+  .partners{
+    list-style:none;
+    text-align: center;
+    font-size:1.5em;
+    font-weight:bold;
+    color:black;
+    p{
+      margin-top:10px;
+      float:left;
+      width: 100%;
+    }
+    span.partner{
+      background-size:contain;
+      background-position:center center;
+      background-repeat: no-repeat;
+      width:100%;
+      padding-top:50%;
+      float:left;
+      margin-bottom:20px;
+    }
+  }
+}
+
+
+
+
+.course-marketplace-header{
+  position: relative;
+  border-top:16px solid #2296f3;
+  .tg-sectionspace{
+    padding:50px 0 0px 0;
+  }
+  &:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    background-image:url('../images/cmp.png');
+    background-position:center center;
+    background-size:cover;
+    // background: $color-orange;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // -webkit-transform: skew(0deg,-15deg);
+    // transform: skew(0deg,-15deg);
+  }
+  .search-courses{
+    text-align: center;
+    input{
+      width:40%;
+    }
+  }
+  .header-content{
+    color:white;
+    h1{
+      font-size:2em;
+      font-weight:bold;
+      text-align: center;
+      color:white;
+      margin-bottom:0px;
+    }
+    h2{
+      color:white;
+      font-size:1.5em;
+      text-align: center;
+      letter-spacing: -1px;
+      font-weight:200;
+      margin-top:-5px;
+      margin-bottom:30px;
+      span{
+        font-weight:bold;
+      }
+    }
+    .row-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    /* vertical spacing between columns */
+  
+    .content {
+      height: 100%;
+      color: #fff;
+    }
+    .row-courses{
+      -webkit-transform: translateY(20%);
+         -moz-transform: translateY(20%);
+          -ms-transform: translateY(20%);
+           -o-transform: translateY(20%);
+              transform: translateY(20%);
+      margin-top:90px;
+      padding:0 15%;
+      .main-block{
+        background-color:white;
+        color:black;
+        border-radius:5px;
+        box-shadow: -3px 6px 12px -5px rgba(0,0,0,0.3);
+        overflow:hidden;
+        .inner{
+          display: inline-block;
+          vertical-align: middle;
+          zoom: 1;
+          *display: inline;
+          &.img-block{
+            background-size:cover;
+            background-position:center center;
+            width:50%;
+            height: 100px;
+          }
+          &.text-block{
+            width:50%;
+            padding:10px;
+            color:black;
+            line-height:1.4;
+            font-size:12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+// FIX for portfolio Images being stretched
+.portfolio-image{
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  display: block;
+  padding-top: 100%;
+}
+.testom{
+  .tg-sectionspace{
+    padding:50px 0;
+  }
+}
+
+.testmonial{
+  .inner{
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    *display: inline;
+    &.img-block{
+      background-size:cover;
+      background-position:center center;
+      width:20%;
+      padding-top:20%;
+      border-radius:50%;
+    }
+    &.text-block{
+      width:80%;
+      padding:10px;
+      color:black;
+      line-height:1.4;
+      font-size:12px;
+      text-align: left;
+      p{
+        padding:0 10px; 
+        margin-bottom:0;
+        &.name{
+          font-weight:bold;
+          font-size:2em;
+        }
+        &.title{
+          font-size:400;
+          font-style: italic;
+          font-size:12px;
+          text-transform: none;
+        }
+      }
+    }
+  }
 }

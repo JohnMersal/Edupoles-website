@@ -369,8 +369,10 @@ jQuery(function () {
 		_tg_fits.owlCarousel({
 			items : 10,
 			loop: true,
-			dots: true,
+			dots: false,
 			nav: false,
+			autoplay:true,
+    		autoplayTimeout:1000,
 			margin: 30,
 			stagePadding: 50,
 			// autoplay: true,

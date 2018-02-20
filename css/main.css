@@ -128,7 +128,7 @@ input[type="color"],
   border-radius: 4px;
   display: inline-block;
   vertical-align: middle;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #828282;
   text-transform: capitalize;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5142,7 +5142,8 @@ body {
     .tg-innerHeader .nav li.active a {
       background-color: white; }
     .tg-innerHeader .nav li a {
-      color: white; }
+      color: white;
+      padding: 3px 15px; }
       .tg-innerHeader .nav li a:hover {
         background-color: white; }
 
@@ -5203,11 +5204,13 @@ body {
   .tg-banner-cta.no-center {
     text-align: initial; }
   .tg-banner-cta .laptop {
-    position: relative;
-    margin-top: -80px; }
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    height: 100%; }
     .tg-banner-cta .laptop img {
-      position: absolute;
-      right: 0; }
+      height: 100%; }
   .tg-banner-cta .tg-sectionspace {
     z-index: 2;
     position: relative;
@@ -5470,7 +5473,8 @@ body {
 
 .tg-feature figure a img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  border-radius: 10px; }
 
 .tg-featurecontent {
   width: 100%;
@@ -5478,10 +5482,13 @@ body {
   text-align: center; }
 
 .tg-featurecontent .tg-title h3 {
-  text-align: center; }
+  text-align: center;
+  color: #2196f3; }
 
 .tg-featurecontent .tg-description p {
-  margin: 0; }
+  margin: 0;
+  font-weight: 400;
+  color: #6d6d6d; }
 
 .tg-parallaxnewsupdate {
   background: rgba(249, 249, 249, 0.95); }
@@ -5762,6 +5769,18 @@ body {
 #tg-fits1 .owl-stage-outer, #tg-fits2 .owl-stage-outer, #tg-fits3 .owl-stage-outer {
   padding: 10px; }
 
+#tg-fits1 .owl-nav, #tg-fits2 .owl-nav, #tg-fits3 .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%; }
+  #tg-fits1 .owl-nav .owl-prev, #tg-fits2 .owl-nav .owl-prev, #tg-fits3 .owl-nav .owl-prev {
+    position: absolute;
+    left: 00; }
+  #tg-fits1 .owl-nav .owl-next, #tg-fits2 .owl-nav .owl-next, #tg-fits3 .owl-nav .owl-next {
+    position: absolute;
+    right: 00; }
+
 #tg-fits1, #tg-fits2 {
   margin-bottom: 50px; }
 
@@ -5777,7 +5796,7 @@ body {
     color: white;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.15);
     top: 0;
     left: 0;
     line-height: 120%;
@@ -5785,7 +5804,9 @@ body {
     justify-content: center;
     /* align horizontal */
     align-items: center;
-    /* align vertical */ }
+    /* align vertical */
+    font-weight: bold;
+    font-size: 19px; }
 
 #tg-fits2 .item {
   padding: 5px;
@@ -5863,6 +5884,9 @@ body {
       color: #1c1c1c;
       border-bottom: 5px solid #f2960f; }
 
+.fits-tab-pane {
+  color: black; }
+
 .cmp-togglers {
   list-style: none;
   padding: 0;
@@ -5890,6 +5914,14 @@ body {
     .cmp-togglers li.active:last-child a {
       background-color: white;
       color: #2196f3; }
+
+.aboutus .cmp-togglers {
+  padding-top: 30px; }
+
+.aboutus #about-us {
+  color: black; }
+  .aboutus #about-us p {
+    font-size: 18px; }
 
 .search-filter-block {
   background-color: white;
@@ -6018,64 +6050,71 @@ body {
         *display: inline;
         /* Fix for IE7 */ }
 
-.course-description .course-details {
-  position: relative;
-  z-index: 3;
-  margin-top: -200px; }
-  .course-description .course-details .details-container {
-    float: left;
-    width: 100%;
-    padding: 20px;
-    border-top: 10px solid #2196f3;
-    text-align: center;
-    background-color: #f9f9f9; }
-    .course-description .course-details .details-container .video {
+.course-description {
+  color: black; }
+  .course-description .course-details {
+    position: relative;
+    z-index: 3;
+    margin-top: -200px; }
+    .course-description .course-details .details-container {
+      float: left;
       width: 100%;
-      padding-top: 50%;
-      background-position: center center;
-      background-size: cover;
-      margin-bottom: 10px;
-      cursor: pointer;
-      display: block; }
-    .course-description .course-details .details-container h3 {
-      color: #2196f3; }
-    .course-description .course-details .details-container table, .course-description .course-details .details-container table tr, .course-description .course-details .details-container table tr td {
-      border: 0px solid;
-      text-align: left; }
-    .course-description .course-details .details-container table tr td:first-child {
-      font-weight: 700; }
-    .course-description .course-details .details-container .tg-btn {
-      display: inline-block;
-      vertical-align: middle;
-      zoom: 1;
-      *display: inline;
-      margin-bottom: -40px;
-      width: 90%;
-      background-color: #f2960f;
-      border: 2px solid #f2960f;
-      color: white;
-      padding: 10px 40px;
-      margin-top: 20px;
-      border-radius: 50px;
-      font-size: 1.3rem;
-      display: inline-block;
-      vertical-align: top;
-      zoom: 1;
-      *display: inline; }
-      .course-description .course-details .details-container .tg-btn:hover {
-        color: #f2960f; }
-        .course-description .course-details .details-container .tg-btn:hover:before {
-          background: #fff; }
-        .course-description .course-details .details-container .tg-btn:hover span {
+      padding: 20px;
+      border-top: 10px solid #2196f3;
+      text-align: center;
+      background-color: #f9f9f9; }
+      .course-description .course-details .details-container .video {
+        width: 100%;
+        padding-top: 50%;
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 10px;
+        cursor: pointer;
+        display: block; }
+      .course-description .course-details .details-container h3 {
+        color: #2196f3; }
+      .course-description .course-details .details-container h2.pricer {
+        font-weight: bold;
+        font-size: 32px; }
+      .course-description .course-details .details-container table, .course-description .course-details .details-container table tr, .course-description .course-details .details-container table tr td {
+        border: 0px solid;
+        text-align: left;
+        vertical-align: middle; }
+      .course-description .course-details .details-container table tr td img.partner {
+        max-width: 50px; }
+      .course-description .course-details .details-container table tr td:first-child {
+        font-weight: 700; }
+      .course-description .course-details .details-container .tg-btn {
+        display: inline-block;
+        vertical-align: middle;
+        zoom: 1;
+        *display: inline;
+        margin-bottom: -40px;
+        width: 90%;
+        background-color: #f2960f;
+        border: 2px solid #f2960f;
+        color: white;
+        padding: 10px 40px;
+        margin-top: 20px;
+        border-radius: 50px;
+        font-size: 1.3rem;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        *display: inline; }
+        .course-description .course-details .details-container .tg-btn:hover {
           color: #f2960f; }
-
-.course-description .wwil {
-  background-color: #FBFBFB;
-  border: 1px solid #979797;
-  padding: 20px;
-  margin-bottom: 20px; }
-  .course-description .wwil li {
-    list-style-type: none; }
+          .course-description .course-details .details-container .tg-btn:hover:before {
+            background: #fff; }
+          .course-description .course-details .details-container .tg-btn:hover span {
+            color: #f2960f; }
+  .course-description .wwil {
+    background-color: #FBFBFB;
+    border: 1px solid #979797;
+    padding: 20px;
+    margin-bottom: 20px; }
+    .course-description .wwil li {
+      list-style-type: none; }
 
 .curriculum h3 a {
   font-weight: 300; }
@@ -6177,3 +6216,157 @@ body {
 
 .tg-portfolioitem > figure > a > img {
   height: 140px; }
+
+.partners-page h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center; }
+
+.partners-page h2 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 200; }
+  .partners-page h2 span {
+    font-weight: bold; }
+
+.partners-page .partners-list {
+  list-style: none;
+  padding: 50px 20%; }
+
+.partners-page .partners {
+  list-style: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black; }
+  .partners-page .partners p {
+    margin-top: 10px;
+    float: left;
+    width: 100%; }
+  .partners-page .partners span.partner {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 50%;
+    float: left;
+    margin-bottom: 20px; }
+
+.course-marketplace-header {
+  position: relative;
+  border-top: 16px solid #2296f3; }
+  .course-marketplace-header .tg-sectionspace {
+    padding: 50px 0 0px 0; }
+  .course-marketplace-header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    background-image: url("../images/cmp.png");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .course-marketplace-header .search-courses {
+    text-align: center; }
+    .course-marketplace-header .search-courses input {
+      width: 40%; }
+  .course-marketplace-header .header-content {
+    color: white;
+    /* vertical spacing between columns */ }
+    .course-marketplace-header .header-content h1 {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      margin-bottom: 0px; }
+    .course-marketplace-header .header-content h2 {
+      color: white;
+      font-size: 1.5em;
+      text-align: center;
+      letter-spacing: -1px;
+      font-weight: 200;
+      margin-top: -5px;
+      margin-bottom: 30px; }
+      .course-marketplace-header .header-content h2 span {
+        font-weight: bold; }
+    .course-marketplace-header .header-content .row-flex {
+      display: flex;
+      flex-wrap: wrap; }
+    .course-marketplace-header .header-content .content {
+      height: 100%;
+      color: #fff; }
+    .course-marketplace-header .header-content .row-courses {
+      -webkit-transform: translateY(20%);
+      -moz-transform: translateY(20%);
+      -ms-transform: translateY(20%);
+      -o-transform: translateY(20%);
+      transform: translateY(20%);
+      margin-top: 90px;
+      padding: 0 15%; }
+      .course-marketplace-header .header-content .row-courses .main-block {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        box-shadow: -3px 6px 12px -5px rgba(0, 0, 0, 0.3);
+        overflow: hidden; }
+        .course-marketplace-header .header-content .row-courses .main-block .inner {
+          display: inline-block;
+          vertical-align: middle;
+          zoom: 1;
+          *display: inline; }
+          .course-marketplace-header .header-content .row-courses .main-block .inner.img-block {
+            background-size: cover;
+            background-position: center center;
+            width: 50%;
+            height: 100px; }
+          .course-marketplace-header .header-content .row-courses .main-block .inner.text-block {
+            width: 50%;
+            padding: 10px;
+            color: black;
+            line-height: 1.4;
+            font-size: 12px; }
+
+.portfolio-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  padding-top: 100%; }
+
+.testom .tg-sectionspace {
+  padding: 50px 0; }
+
+.testmonial .inner {
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline; }
+  .testmonial .inner.img-block {
+    background-size: cover;
+    background-position: center center;
+    width: 20%;
+    padding-top: 20%;
+    border-radius: 50%; }
+  .testmonial .inner.text-block {
+    width: 80%;
+    padding: 10px;
+    color: black;
+    line-height: 1.4;
+    font-size: 12px;
+    text-align: left; }
+    .testmonial .inner.text-block p {
+      padding: 0 10px;
+      margin-bottom: 0; }
+      .testmonial .inner.text-block p.name {
+        font-weight: bold;
+        font-size: 2em; }
+      .testmonial .inner.text-block p.title {
+        font-size: 400;
+        font-style: italic;
+        font-size: 12px;
+        text-transform: none; }
