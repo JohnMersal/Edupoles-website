@@ -5454,8 +5454,7 @@ body {
 .tg-features {
   width: 100%;
   float: left;
-  padding: 0 0 100px;
-  border-bottom: 1px solid #ddd; }
+  padding: 0 0 0px; }
 
 .tg-feature {
   width: 100%;
@@ -6330,6 +6329,52 @@ body {
             color: black;
             line-height: 1.4;
             font-size: 12px; }
+
+.a-b-a {
+  padding: 0 15%;
+  font-size: 16px; }
+  .a-b-a strong {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    *display: inline;
+    padding: 2px 10px;
+    margin-right: 5px;
+    border-bottom: 2px solid #2196f3;
+    color: #2196f3;
+    cursor: pointer;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear; }
+    .a-b-a strong:hover {
+      color: white;
+      border-bottom: 2px solid transparent; }
+      .a-b-a strong:hover:before {
+        background-color: #2196f3;
+        width: 100%; }
+    .a-b-a strong:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      z-index: -10;
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      transform: rotate(-3deg);
+      -webkit-transition: all .25s linear;
+      -moz-transition: all .25s linear;
+      -ms-transition: all .25s linear;
+      -o-transition: all .25s linear;
+      transition: all .25s linear; }
 
 .portfolio-image {
   background-size: cover;
