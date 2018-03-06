@@ -1639,3 +1639,171 @@ body{
     }
   }
 }
+
+
+.logos{
+  img{
+    max-width:200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive
+@media (max-width:800px){
+  .tg-hero{
+    height:50vh;
+    .container{
+      position: relative;
+    }
+    .tg-sectionspace{
+      height:50vh;
+      padding:20px 0;
+      h1{
+        font-size: 2em;
+      }
+      h3{
+            font-size: 1.5em;
+      }
+    }
+  }
+  .tg-parallax{
+    padding:unset;
+  }
+  .brands .partners-list{
+    text-align:unset;
+  }
+  .brands .partners-list .partner{
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px;
+    opacity:1;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+
+
+
+  .tg-banner-cta .tg-sectionspace{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tg-banner-cta .laptop{
+    position: relative;
+    margin-top:20px;
+    img{
+      height:unset;
+    }
+  }
+  .features{
+    padding:30px 0;
+  }
+  .feature-toggles{
+    li{
+      margin: 0 10px;
+      margin-bottom:10px;
+      a .feat-ico{
+        width: 80px;
+        height: 80px;
+        &:before{
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+    & ~ .tab-content{
+      .tg-introduction img{
+        width:100%;
+      }
+      .tg-textshortcode{
+        width: 100%;
+      }
+    }
+  }
+
+
+  .fits-tabs{
+    li a{
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+  .a-b-a{
+    padding:0 30px;
+  }
+}
+@media (max-width:435px){
+  .tg-header .tg-socialicons .demo {
+    padding: 6px 3px;
+    font-size: 10px;
+  }
+  .tg-nav{
+    margin:0;
+  }
+  .tg-hero{
+    height:unset;
+    .container{
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translateX(0%) translateY(0%);
+    }
+    .tg-sectionspace{
+      height:unset;
+      padding:20px 0;
+      h1{
+        font-size: 2em;
+      }
+      h3{
+            font-size: 1.5em;
+      }
+    }
+  }
+  .tg-parallax{
+    padding:unset;
+  }
+
+
+
+
+  // Platform
+  .tg-banner-cta .tg-sectionspace{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tg-banner-cta .laptop{
+    position: relative;
+    margin-top:20px;
+    img{
+      height:unset;
+    }
+  }
+  .tg-banner-cta .tg-sectionspace h2{
+    font-size:2em;
+  }
+  .tg-banner-cta .tg-sectionspace h4{
+    font-size:1em;
+  }
+  
+
+}

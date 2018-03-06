@@ -6415,3 +6415,97 @@ body {
         font-style: italic;
         font-size: 12px;
         text-transform: none; }
+
+.logos img {
+  max-width: 200px; }
+
+@media (max-width: 800px) {
+  .tg-hero {
+    height: 50vh; }
+    .tg-hero .container {
+      position: relative; }
+    .tg-hero .tg-sectionspace {
+      height: 50vh;
+      padding: 20px 0; }
+      .tg-hero .tg-sectionspace h1 {
+        font-size: 2em; }
+      .tg-hero .tg-sectionspace h3 {
+        font-size: 1.5em; }
+  .tg-parallax {
+    padding: unset; }
+  .brands .partners-list {
+    text-align: unset; }
+  .brands .partners-list .partner {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 10px;
+    opacity: 1;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+  .tg-banner-cta .tg-sectionspace {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .tg-banner-cta .laptop {
+    position: relative;
+    margin-top: 20px; }
+    .tg-banner-cta .laptop img {
+      height: unset; }
+  .features {
+    padding: 30px 0; }
+  .feature-toggles li {
+    margin: 0 10px;
+    margin-bottom: 10px; }
+    .feature-toggles li a .feat-ico {
+      width: 80px;
+      height: 80px; }
+      .feature-toggles li a .feat-ico:before {
+        width: 80px;
+        height: 80px; }
+  .feature-toggles ~ .tab-content .tg-introduction img {
+    width: 100%; }
+  .feature-toggles ~ .tab-content .tg-textshortcode {
+    width: 100%; }
+  .fits-tabs li a {
+    padding: 10px 20px;
+    font-size: 15px; }
+  .a-b-a {
+    padding: 0 30px; } }
+
+@media (max-width: 435px) {
+  .tg-header .tg-socialicons .demo {
+    padding: 6px 3px;
+    font-size: 10px; }
+  .tg-nav {
+    margin: 0; }
+  .tg-hero {
+    height: unset; }
+    .tg-hero .container {
+      position: relative;
+      top: unset;
+      left: unset;
+      transform: translateX(0%) translateY(0%); }
+    .tg-hero .tg-sectionspace {
+      height: unset;
+      padding: 20px 0; }
+      .tg-hero .tg-sectionspace h1 {
+        font-size: 2em; }
+      .tg-hero .tg-sectionspace h3 {
+        font-size: 1.5em; }
+  .tg-parallax {
+    padding: unset; }
+  .tg-banner-cta .tg-sectionspace {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .tg-banner-cta .laptop {
+    position: relative;
+    margin-top: 20px; }
+    .tg-banner-cta .laptop img {
+      height: unset; }
+  .tg-banner-cta .tg-sectionspace h2 {
+    font-size: 2em; }
+  .tg-banner-cta .tg-sectionspace h4 {
+    font-size: 1em; } }
