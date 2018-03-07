@@ -293,7 +293,7 @@ jQuery(function () {
 			dots: true,
 			nav: false,
 			margin: 80,
-			autoplay: true,
+			autoplay: false,
 			responsive:{
 				0:{
 					items:1,
@@ -301,6 +301,29 @@ jQuery(function () {
 				},
 				640:{
 					items:2,
+					margin: 30,
+				},
+			}
+		});
+	}
+	// Brands
+	if(jQuery('#brands').length > 0){
+		var _tg_postsslider = jQuery('#brands');
+		_tg_postsslider.owlCarousel({
+			items : 11,
+			loop: true,
+			dots: false,
+			stagePadding: 20,
+			nav: false,
+			margin: 80,
+			autoplay: true,
+			responsive:{
+				0:{
+					items:5,
+					margin: 0,
+				},
+				640:{
+					items:8,
 					margin: 30,
 				},
 			}
