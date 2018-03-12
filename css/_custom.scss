@@ -188,6 +188,7 @@ body{
       font-size:2em;
       font-weight: 300;
       color:white;
+      background-color:rgba(0,0,0,0.5);
 
     }
     .watchVideo{
@@ -1556,43 +1557,43 @@ body{
     vertical-align: middle;
     zoom: 1;
     *display: inline;
-    padding:2px 10px;
-    margin-right:5px;
-    border-bottom:2px solid $color-blue;
-    color:$color-blue;
+    // padding:2px 10px;
+    // margin-right:5px;
+    // border-bottom:2px solid $color-blue;
+    color:#383838;
     cursor:pointer;
     -webkit-transition: all .25s linear;
        -moz-transition: all .25s linear;
         -ms-transition: all .25s linear;
          -o-transition: all .25s linear;
             transition: all .25s linear;
-    &:hover{
-      color:white;
-      border-bottom:2px solid transparent;
-      &:before{
-        background-color:$color-blue;
-        width:100%;
-      }
-    }
-    &:before{
-      content:'';
-      position: absolute;
-      top:0;
-      left:0;
-      width:0%;
-      height:100%;
-      z-index:-10;
-      -webkit-transform: rotate(-3deg);
-           -moz-transform: rotate(-3deg);
-            -ms-transform: rotate(-3deg);
-             -o-transform: rotate(-3deg);
-                transform: rotate(-3deg);
-      -webkit-transition: all .25s linear;
-       -moz-transition: all .25s linear;
-        -ms-transition: all .25s linear;
-         -o-transition: all .25s linear;
-            transition: all .25s linear;
-    }
+    // &:hover{
+    //   color:white;
+    //   border-bottom:2px solid transparent;
+    //   &:before{
+    //     background-color:$color-blue;
+    //     width:100%;
+    //   }
+    // }
+    // &:before{
+    //   content:'';
+    //   position: absolute;
+    //   top:0;
+    //   left:0;
+    //   width:0%;
+    //   height:100%;
+    //   z-index:-10;
+    //   -webkit-transform: rotate(-3deg);
+    //        -moz-transform: rotate(-3deg);
+    //         -ms-transform: rotate(-3deg);
+    //          -o-transform: rotate(-3deg);
+    //             transform: rotate(-3deg);
+    //   -webkit-transition: all .25s linear;
+    //    -moz-transition: all .25s linear;
+    //     -ms-transition: all .25s linear;
+    //      -o-transition: all .25s linear;
+    //         transition: all .25s linear;
+    // }
   }
 }
 
@@ -1688,7 +1689,7 @@ body{
         font-size: 2em;
       }
       h3{
-            font-size: 1.5em;
+        font-size: 1.5em;
       }
     }
   }
@@ -1816,4 +1817,11 @@ body{
   }
   
 
+}
+
+
+
+
+.tg-btn.browse{
+  text-transform: uppercase;
 }

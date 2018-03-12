@@ -11,7 +11,7 @@ html,
 body{overflow-x: hidden;}
 */
 body {
-  color: #929292;
+  color: #383838;
   background: #fff;
   font: 300 14px/24px 'Montserrat', Arial, Helvetica, sans-serif; }
 
@@ -1222,7 +1222,7 @@ body.tg-404errorpage .tg-wrapper {
 .tg-sectionhead .tg-description {
   width: 100%;
   float: left;
-  color: #929292;
+  color: #383838;
   font-size: 16px;
   font-weight: 300;
   line-height: 20px; }
@@ -5386,7 +5386,8 @@ body {
     .tg-hero .tg-sectionspace h3 {
       font-size: 2em;
       font-weight: 300;
-      color: white; }
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5); }
     .tg-hero .tg-sectionspace .watchVideo {
       background-color: #f2960f;
       color: white;
@@ -6554,40 +6555,13 @@ body {
     vertical-align: middle;
     zoom: 1;
     *display: inline;
-    padding: 2px 10px;
-    margin-right: 5px;
-    border-bottom: 2px solid #2196f3;
-    color: #2196f3;
+    color: #383838;
     cursor: pointer;
     -webkit-transition: all .25s linear;
     -moz-transition: all .25s linear;
     -ms-transition: all .25s linear;
     -o-transition: all .25s linear;
     transition: all .25s linear; }
-    .a-b-a strong:hover {
-      color: white;
-      border-bottom: 2px solid transparent; }
-      .a-b-a strong:hover:before {
-        background-color: #2196f3;
-        width: 100%; }
-    .a-b-a strong:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0%;
-      height: 100%;
-      z-index: -10;
-      -webkit-transform: rotate(-3deg);
-      -moz-transform: rotate(-3deg);
-      -ms-transform: rotate(-3deg);
-      -o-transform: rotate(-3deg);
-      transform: rotate(-3deg);
-      -webkit-transition: all .25s linear;
-      -moz-transition: all .25s linear;
-      -ms-transition: all .25s linear;
-      -o-transition: all .25s linear;
-      transition: all .25s linear; }
 
 .portfolio-image {
   background-size: cover;
@@ -6723,3 +6697,6 @@ body {
     font-size: 2em; }
   .tg-banner-cta .tg-sectionspace h4 {
     font-size: 1em; } }
+
+.tg-btn.browse {
+  text-transform: uppercase; }
