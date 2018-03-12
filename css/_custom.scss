@@ -1847,3 +1847,8 @@ body{
   background-size: cover;
   border-radius: 50%;
 }
+@media (max-width: 991px){
+  .team-member-picture{
+    width: 50% !important;
+  }
+}
