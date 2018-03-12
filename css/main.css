@@ -2622,10 +2622,6 @@ footer li.tg-youtube a {
 .tg-counterbox .tg-statisticsvthree li {
   padding: 40px 0; }
 
-.tg-teammembersvthree .tg-teammember figure {
-  border-radius: 0;
-  margin: 0 0 20px; }
-
 .tg-teammembersvthree .tg-membercontent {
   padding: 0;
   width: 100%;
@@ -6700,3 +6696,16 @@ body {
 
 .tg-btn.browse {
   text-transform: uppercase; }
+
+.tg-teammember {
+  text-align: center; }
+  .tg-teammember .tg-membercontent {
+    margin-bottom: 20px; }
+
+.team-member-picture {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50%;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%; }

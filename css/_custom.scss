@@ -1825,3 +1825,25 @@ body{
 .tg-btn.browse{
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+.tg-teammember{
+  text-align: center;
+  .tg-membercontent{
+
+    margin-bottom:20px;
+  }
+}
+.team-member-picture{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50%;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+}
