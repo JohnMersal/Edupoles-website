@@ -1,0 +1,94 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang="zxx"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Edupoles</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/bootstrap-multiselect.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="tg-maintenancepage">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Loader Start
+	*************************************-->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<!--************************************
+			Loader End
+	*************************************-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="tg-main" class="tg-main tg-haslayout">
+			<div class="tg-comingsooncontent">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-8 col-md-push-2 col-lg-8 col-lg-push-2 ">
+							<h2>Coming Soon</h2>
+							<div id="tg-cscounter" class="tg-cscounter"></div>
+							<div class="tg-description">
+								<p>Please subscribe to newsletter to get updates from us.</p>
+							</div>
+							<form class="tg-formtheme tg-formsubscribe">
+								<fieldset>
+									<div class="form-group">
+										<input type="email" name="email" class="form-control" placeholder="Enter your Email">
+										<button type="submit"><i class="icon-envelope"></i></button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/prettyPhoto.js"></script>
+	<script src="js/sticky-kit.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		jQuery('#tg-cscounter').countdown('2018/04/015', function(event) {
+			var $this = jQuery(this).html(event.strftime(''
+				+ '<div class="tg-counterholder"><span>%-D</span><span>days</span></div>'
+				+ '<div class="tg-counterholder"><span>%H</span><span>hours</span></div>'
+				+ '<div class="tg-counterholder"><span>%M</span><span>mins</span></div>'
+				+ '<div class="tg-counterholder"><span>%S</span><span>secs</span></div>'
+			));
+		});
+	</script>
+</body>
+</html>
