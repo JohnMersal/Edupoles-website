@@ -6731,4 +6731,6 @@ body {
     width: 50% !important; }
   .course-description .course-details {
     margin-top: 0px;
-    margin-bottom: 90px; } }
+    margin-bottom: 60px;
+    float: left;
+    width: 100%; } }

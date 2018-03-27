@@ -416,6 +416,14 @@ jQuery(function () {
 	/* --------------------------------------
 			THEME COLLAPSE
 	-------------------------------------- */
+	if(jQuery('#tg-themecollapse').length > 0){
+		var _openFirst = jQuery('#tg-themecollapse');
+		_openFirst.collapse({
+			open: function() {this.slideDown('slow');},
+			close: function() {this.slideUp('slow');},
+			accordion: true,
+		});
+	}
 	/* -------------------------------------
 			Google Map
 	-------------------------------------- */
